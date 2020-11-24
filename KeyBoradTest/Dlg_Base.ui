@@ -1,0 +1,23 @@
+<UI version="4.0" >
+ <class>Dlg_Base</class>
+ <widget class="QWidget" name="Dlg_Base" >
+  <property name="objectName" >
+   <string notr="true">Dlg_Base</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Dlg_Base</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</UI>

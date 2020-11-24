@@ -1,0 +1,6 @@
+﻿  CustomKeyBorad.cpp
+CustomKeyBorad.cpp(287): warning C4129: “;”: 不可识别的字符转义序列
+  KeyBoradTest.cpp
+  正在生成代码...
+  KeyBoradTest.vcxproj -> C:\Users\29325\Desktop\KeyBoradTest\Win32\Debug\KeyBoradTest.exe
+  KeyBoradTest.vcxproj -> C:\Users\29325\Desktop\KeyBoradTest\Win32\Debug\KeyBoradTest.pdb (Full PDB)

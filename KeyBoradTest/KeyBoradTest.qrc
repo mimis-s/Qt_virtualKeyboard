@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/KeyBoradImage">
+        <file>KeyBoradImage/close_black.png</file>
+        <file>KeyBoradImage/close_white.png</file>
+        <file>KeyBoradImage/delete_black.png</file>
+        <file>KeyBoradImage/delete_white.png</file>
+        <file>KeyBoradImage/enter_black.png</file>
+        <file>KeyBoradImage/enter_white.png</file>
+        <file>KeyBoradImage/handwriting_black.png</file>
+        <file>KeyBoradImage/handwriting_white.png</file>
+        <file>KeyBoradImage/mini_black.png</file>
+        <file>KeyBoradImage/mini_white.png</file>
+        <file>KeyBoradImage/space_black.png</file>
+        <file>KeyBoradImage/space_white.png</file>
+        <file>KeyBoradImage/upper_black.png</file>
+        <file>KeyBoradImage/upper_white.png</file>
+    </qresource>
+</RCC>

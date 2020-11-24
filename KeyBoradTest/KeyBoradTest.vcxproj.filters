@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{95fe5321-5f4e-4d85-8cee-33f26cea4554}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{0359171c-4575-43a3-b657-3479869a52c9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="KeyBoradLib">
+      <UniqueIdentifier>{88b4b1c7-b7fc-4041-9665-af25d6475ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyBoradLib\head">
+      <UniqueIdentifier>{e04d586d-2b8f-46ed-b2e2-2bd64305c9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyBoradLib\source">
+      <UniqueIdentifier>{d5f2583e-3804-47b9-bbcd-ebde55b97c4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyBoradTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KeyBoradTest.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KeyBoradTest.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_KeyBoradTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dictbuilder.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dictlist.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dicttrie.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lpicache.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrixsearch.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mystdlib.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ngram.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pinyinime.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\searchutility.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spellingtable.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spellingtrie.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\splparser.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\userdict.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utf16char.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utf16reader.cpp">
+      <Filter>KeyBoradLib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomKeyBorad.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomKeyBorad.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomKeyBorad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KeyButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KeyButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CustomEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CustomEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Dlg_Base.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Dlg_Base.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="KeyBoradTest.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyBoradTest.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyBoradTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomKeyBorad.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomKeyBorad.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomEdit.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dlg_Base.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Dlg_Base.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_KeyBoradTest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utf16reader.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utf16char.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\userdict.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sync.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\splparser.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spellingtrie.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spellingtable.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\searchutility.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pinyinime.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ngram.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mystdlib.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrixsearch.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lpicache.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dicttrie.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dictlist.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dictdef.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\atomdictbase.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dictbuilder.h">
+      <Filter>KeyBoradLib\head</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CustomKeyBorad.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Dlg_Base.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\lib.pri" />
+  </ItemGroup>
+</Project>
