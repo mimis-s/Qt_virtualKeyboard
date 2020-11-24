@@ -255,7 +255,7 @@ void CustomKeyBorad::InitWidgetKey()
 	m_KetAll.push_back(pButtonExpression);
 	pButtonExpression->setMaximumSize(165, 55);
 	pButtonExpression->setMinimumSize(165, 55);
-	pButtonExpression->setText("mimis");
+	pButtonExpression->setText("maccura");
 	pFourHbox->addWidget(pButtonExpression);
 
 	//关闭按钮
@@ -705,12 +705,14 @@ bool CustomKeyBorad::eventFilter(QObject *watched, QEvent *event)
 			{
 				QWidget *pWidget = (QWidget*)watched;
 				pWidget->setAttribute(Qt::WA_AcceptTouchEvents);
+				qApp->setAttribute(Qt::AA_SynthesizeMouseForUnhandledTouchEvents, false);
+
 			}
 		}
 	}
 	if (watched->inherits("QWidget"))
 	{
-		if (event->type() == QEvent::TouchBegin)	//换成mousepressed只能识别QLineEdit和表格的编辑框(QTextEdit相应的是滚动区域，不知道为啥)
+		if (event->type() == QEvent::MouseButtonPress)	//换成mousepressed只能识别QLineEdit和表格的编辑框(QTextEdit相应的是滚动区域，不知道为啥)
 		{
 			bool bEdit = false;
 			QList<char *> list;
@@ -722,7 +724,7 @@ bool CustomKeyBorad::eventFilter(QObject *watched, QEvent *event)
 			for (int i = 0;i < list.size();i++)
 			{
 				QWidget *pWidget = (QWidget*)watched;
-				if (pWidget->inherits(list[i]) && pWidget->isEnabled())
+				if (pWidget->inherits(list[i]))
 				{
 					m_pCurEdit->setCurrentEdit(pWidget);
 					setKeyBoradPosition(pWidget);
@@ -731,14 +733,18 @@ bool CustomKeyBorad::eventFilter(QObject *watched, QEvent *event)
 				}
 			}
 		}
-		if (event->type() == QEvent::Close)
+		if (watched == m_pCurEdit->getCurrentEdit())
 		{
-			m_pCurEdit->setCurrentEdit(nullptr);
+			if (event->type() == QEvent::Close)
+			{
+				m_pCurEdit->setCurrentEdit(nullptr);
+			}
+			if (event->type() == QEvent::Hide)
+			{
+				m_pCurEdit->setCurrentEdit(nullptr);
+			}
 		}
-		if (event->type() == QEvent::Hide)
-		{
-			m_pCurEdit->setCurrentEdit(nullptr);
-		}
+
 	}
 	return QWidget::eventFilter(watched, event);
 }
